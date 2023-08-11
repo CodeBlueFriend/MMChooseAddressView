@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E290EA092A85D95F000F4B19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA082A85D95F000F4B19 /* AppDelegate.m */; };
+		E290EA0C2A85D95F000F4B19 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA0B2A85D95F000F4B19 /* SceneDelegate.m */; };
+		E290EA0F2A85D95F000F4B19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA0E2A85D95F000F4B19 /* ViewController.m */; };
+		E290EA122A85D95F000F4B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E290EA102A85D95F000F4B19 /* Main.storyboard */; };
+		E290EA142A85D960000F4B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E290EA132A85D960000F4B19 /* Assets.xcassets */; };
+		E290EA172A85D960000F4B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E290EA152A85D960000F4B19 /* LaunchScreen.storyboard */; };
+		E290EA1A2A85D960000F4B19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA192A85D960000F4B19 /* main.m */; };
+		E290EA242A85D960000F4B19 /* _023_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA232A85D960000F4B19 /* _023_________Tests.m */; };
+		E290EA2E2A85D960000F4B19 /* _023_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA2D2A85D960000F4B19 /* _023_________UITests.m */; };
+		E290EA302A85D960000F4B19 /* _023_________UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA2F2A85D960000F4B19 /* _023_________UITestsLaunchTests.m */; };
+		E290EA4D2A85D9D8000F4B19 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA3E2A85D9D8000F4B19 /* UIView+Frame.m */; };
+		E290EA4E2A85D9D8000F4B19 /* MMChooseAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA3F2A85D9D8000F4B19 /* MMChooseAddressCell.m */; };
+		E290EA4F2A85D9D8000F4B19 /* NSString+MMNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA412A85D9D8000F4B19 /* NSString+MMNormal.m */; };
+		E290EA502A85D9D8000F4B19 /* MMAddressSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA422A85D9D8000F4B19 /* MMAddressSelectedView.m */; };
+		E290EA512A85D9D8000F4B19 /* MMChooseAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA432A85D9D8000F4B19 /* MMChooseAddressView.m */; };
+		E290EA522A85D9D8000F4B19 /* mmmAddress.json in Resources */ = {isa = PBXBuildFile; fileRef = E290EA442A85D9D8000F4B19 /* mmmAddress.json */; };
+		E290EA532A85D9D8000F4B19 /* UIView+MMNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA452A85D9D8000F4B19 /* UIView+MMNormal.m */; };
+		E290EA542A85D9D8000F4B19 /* MMAddressDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA472A85D9D8000F4B19 /* MMAddressDataModel.m */; };
+		E290EA6E2A85D9DE000F4B19 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA5A2A85D9DE000F4B19 /* MJPropertyType.m */; };
+		E290EA6F2A85D9DE000F4B19 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA5D2A85D9DE000F4B19 /* NSObject+MJKeyValue.m */; };
+		E290EA702A85D9DE000F4B19 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA5E2A85D9DE000F4B19 /* MJProperty.m */; };
+		E290EA712A85D9DE000F4B19 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA602A85D9DE000F4B19 /* NSObject+MJCoding.m */; };
+		E290EA722A85D9DE000F4B19 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA622A85D9DE000F4B19 /* MJExtensionConst.m */; };
+		E290EA732A85D9DE000F4B19 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA632A85D9DE000F4B19 /* NSObject+MJProperty.m */; };
+		E290EA742A85D9DE000F4B19 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA652A85D9DE000F4B19 /* NSObject+MJClass.m */; };
+		E290EA752A85D9DE000F4B19 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA662A85D9DE000F4B19 /* NSString+MJExtension.m */; };
+		E290EA762A85D9DE000F4B19 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA672A85D9DE000F4B19 /* MJPropertyKey.m */; };
+		E290EA772A85D9DE000F4B19 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E290EA6B2A85D9DE000F4B19 /* MJFoundation.m */; };
+		E290EA782A85D9DE000F4B19 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E290EA6C2A85D9DE000F4B19 /* LICENSE */; };
+		E290EA792A85D9DE000F4B19 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E290EA6D2A85D9DE000F4B19 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E290EA202A85D960000F4B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E290E9FC2A85D95F000F4B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E290EA032A85D95F000F4B19;
+			remoteInfo = "2023淘宝最新地址选择器";
+		};
+		E290EA2A2A85D960000F4B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E290E9FC2A85D95F000F4B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E290EA032A85D95F000F4B19;
+			remoteInfo = "2023淘宝最新地址选择器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E290EA042A85D95F000F4B19 /* 2023淘宝最新地址选择器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2023淘宝最新地址选择器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E290EA072A85D95F000F4B19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E290EA082A85D95F000F4B19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E290EA0A2A85D95F000F4B19 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E290EA0B2A85D95F000F4B19 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E290EA0D2A85D95F000F4B19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E290EA0E2A85D95F000F4B19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E290EA112A85D95F000F4B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E290EA132A85D960000F4B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E290EA162A85D960000F4B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E290EA182A85D960000F4B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E290EA192A85D960000F4B19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E290EA1F2A85D960000F4B19 /* 2023淘宝最新地址选择器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2023淘宝最新地址选择器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E290EA232A85D960000F4B19 /* _023_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_023_________Tests.m"; sourceTree = "<group>"; };
+		E290EA292A85D960000F4B19 /* 2023淘宝最新地址选择器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2023淘宝最新地址选择器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E290EA2D2A85D960000F4B19 /* _023_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_023_________UITests.m"; sourceTree = "<group>"; };
+		E290EA2F2A85D960000F4B19 /* _023_________UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_023_________UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		E290EA3D2A85D9D8000F4B19 /* UIView+MMNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MMNormal.h"; sourceTree = "<group>"; };
+		E290EA3E2A85D9D8000F4B19 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		E290EA3F2A85D9D8000F4B19 /* MMChooseAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMChooseAddressCell.m; sourceTree = "<group>"; };
+		E290EA402A85D9D8000F4B19 /* MMAddressDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAddressDataModel.h; sourceTree = "<group>"; };
+		E290EA412A85D9D8000F4B19 /* NSString+MMNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MMNormal.m"; sourceTree = "<group>"; };
+		E290EA422A85D9D8000F4B19 /* MMAddressSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAddressSelectedView.m; sourceTree = "<group>"; };
+		E290EA432A85D9D8000F4B19 /* MMChooseAddressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMChooseAddressView.m; sourceTree = "<group>"; };
+		E290EA442A85D9D8000F4B19 /* mmmAddress.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mmmAddress.json; sourceTree = "<group>"; };
+		E290EA452A85D9D8000F4B19 /* UIView+MMNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MMNormal.m"; sourceTree = "<group>"; };
+		E290EA462A85D9D8000F4B19 /* NSString+MMNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MMNormal.h"; sourceTree = "<group>"; };
+		E290EA472A85D9D8000F4B19 /* MMAddressDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAddressDataModel.m; sourceTree = "<group>"; };
+		E290EA482A85D9D8000F4B19 /* MMHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHeader.h; sourceTree = "<group>"; };
+		E290EA492A85D9D8000F4B19 /* MMChooseAddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMChooseAddressCell.h; sourceTree = "<group>"; };
+		E290EA4A2A85D9D8000F4B19 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		E290EA4B2A85D9D8000F4B19 /* MMChooseAddressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMChooseAddressView.h; sourceTree = "<group>"; };
+		E290EA4C2A85D9D8000F4B19 /* MMAddressSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAddressSelectedView.h; sourceTree = "<group>"; };
+		E290EA572A85D9DE000F4B19 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		E290EA582A85D9DE000F4B19 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		E290EA592A85D9DE000F4B19 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		E290EA5A2A85D9DE000F4B19 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		E290EA5B2A85D9DE000F4B19 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		E290EA5C2A85D9DE000F4B19 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		E290EA5D2A85D9DE000F4B19 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		E290EA5E2A85D9DE000F4B19 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		E290EA5F2A85D9DE000F4B19 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		E290EA602A85D9DE000F4B19 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		E290EA612A85D9DE000F4B19 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		E290EA622A85D9DE000F4B19 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		E290EA632A85D9DE000F4B19 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		E290EA642A85D9DE000F4B19 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		E290EA652A85D9DE000F4B19 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		E290EA662A85D9DE000F4B19 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		E290EA672A85D9DE000F4B19 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		E290EA682A85D9DE000F4B19 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		E290EA692A85D9DE000F4B19 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		E290EA6A2A85D9DE000F4B19 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		E290EA6B2A85D9DE000F4B19 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		E290EA6C2A85D9DE000F4B19 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E290EA6D2A85D9DE000F4B19 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E290EA012A85D95F000F4B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E290EA1C2A85D960000F4B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E290EA262A85D960000F4B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E290E9FB2A85D95F000F4B19 = {
+			isa = PBXGroup;
+			children = (
+				E290EA062A85D95F000F4B19 /* 2023淘宝最新地址选择器 */,
+				E290EA222A85D960000F4B19 /* 2023淘宝最新地址选择器Tests */,
+				E290EA2C2A85D960000F4B19 /* 2023淘宝最新地址选择器UITests */,
+				E290EA052A85D95F000F4B19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E290EA052A85D95F000F4B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E290EA042A85D95F000F4B19 /* 2023淘宝最新地址选择器.app */,
+				E290EA1F2A85D960000F4B19 /* 2023淘宝最新地址选择器Tests.xctest */,
+				E290EA292A85D960000F4B19 /* 2023淘宝最新地址选择器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E290EA062A85D95F000F4B19 /* 2023淘宝最新地址选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				E290EA072A85D95F000F4B19 /* AppDelegate.h */,
+				E290EA082A85D95F000F4B19 /* AppDelegate.m */,
+				E290EA0A2A85D95F000F4B19 /* SceneDelegate.h */,
+				E290EA0B2A85D95F000F4B19 /* SceneDelegate.m */,
+				E290EA0D2A85D95F000F4B19 /* ViewController.h */,
+				E290EA0E2A85D95F000F4B19 /* ViewController.m */,
+				E290EA552A85D9DE000F4B19 /* MJExtension */,
+				E290EA3C2A85D9D8000F4B19 /* MMChooseAddress */,
+				E290EA102A85D95F000F4B19 /* Main.storyboard */,
+				E290EA132A85D960000F4B19 /* Assets.xcassets */,
+				E290EA152A85D960000F4B19 /* LaunchScreen.storyboard */,
+				E290EA182A85D960000F4B19 /* Info.plist */,
+				E290EA192A85D960000F4B19 /* main.m */,
+			);
+			path = "2023淘宝最新地址选择器";
+			sourceTree = "<group>";
+		};
+		E290EA222A85D960000F4B19 /* 2023淘宝最新地址选择器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E290EA232A85D960000F4B19 /* _023_________Tests.m */,
+			);
+			path = "2023淘宝最新地址选择器Tests";
+			sourceTree = "<group>";
+		};
+		E290EA2C2A85D960000F4B19 /* 2023淘宝最新地址选择器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E290EA2D2A85D960000F4B19 /* _023_________UITests.m */,
+				E290EA2F2A85D960000F4B19 /* _023_________UITestsLaunchTests.m */,
+			);
+			path = "2023淘宝最新地址选择器UITests";
+			sourceTree = "<group>";
+		};
+		E290EA3C2A85D9D8000F4B19 /* MMChooseAddress */ = {
+			isa = PBXGroup;
+			children = (
+				E290EA482A85D9D8000F4B19 /* MMHeader.h */,
+				E290EA442A85D9D8000F4B19 /* mmmAddress.json */,
+				E290EA4B2A85D9D8000F4B19 /* MMChooseAddressView.h */,
+				E290EA432A85D9D8000F4B19 /* MMChooseAddressView.m */,
+				E290EA3D2A85D9D8000F4B19 /* UIView+MMNormal.h */,
+				E290EA452A85D9D8000F4B19 /* UIView+MMNormal.m */,
+				E290EA4A2A85D9D8000F4B19 /* UIView+Frame.h */,
+				E290EA3E2A85D9D8000F4B19 /* UIView+Frame.m */,
+				E290EA492A85D9D8000F4B19 /* MMChooseAddressCell.h */,
+				E290EA3F2A85D9D8000F4B19 /* MMChooseAddressCell.m */,
+				E290EA402A85D9D8000F4B19 /* MMAddressDataModel.h */,
+				E290EA472A85D9D8000F4B19 /* MMAddressDataModel.m */,
+				E290EA4C2A85D9D8000F4B19 /* MMAddressSelectedView.h */,
+				E290EA422A85D9D8000F4B19 /* MMAddressSelectedView.m */,
+				E290EA462A85D9D8000F4B19 /* NSString+MMNormal.h */,
+				E290EA412A85D9D8000F4B19 /* NSString+MMNormal.m */,
+			);
+			path = MMChooseAddress;
+			sourceTree = "<group>";
+		};
+		E290EA552A85D9DE000F4B19 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E290EA562A85D9DE000F4B19 /* MJExtension */,
+				E290EA6C2A85D9DE000F4B19 /* LICENSE */,
+				E290EA6D2A85D9DE000F4B19 /* README.md */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		E290EA562A85D9DE000F4B19 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E290EA572A85D9DE000F4B19 /* MJPropertyKey.h */,
+				E290EA582A85D9DE000F4B19 /* NSObject+MJClass.h */,
+				E290EA592A85D9DE000F4B19 /* NSString+MJExtension.h */,
+				E290EA5A2A85D9DE000F4B19 /* MJPropertyType.m */,
+				E290EA5B2A85D9DE000F4B19 /* NSObject+MJProperty.h */,
+				E290EA5C2A85D9DE000F4B19 /* MJExtensionConst.h */,
+				E290EA5D2A85D9DE000F4B19 /* NSObject+MJKeyValue.m */,
+				E290EA5E2A85D9DE000F4B19 /* MJProperty.m */,
+				E290EA5F2A85D9DE000F4B19 /* MJFoundation.h */,
+				E290EA602A85D9DE000F4B19 /* NSObject+MJCoding.m */,
+				E290EA612A85D9DE000F4B19 /* MJExtension.h */,
+				E290EA622A85D9DE000F4B19 /* MJExtensionConst.m */,
+				E290EA632A85D9DE000F4B19 /* NSObject+MJProperty.m */,
+				E290EA642A85D9DE000F4B19 /* MJPropertyType.h */,
+				E290EA652A85D9DE000F4B19 /* NSObject+MJClass.m */,
+				E290EA662A85D9DE000F4B19 /* NSString+MJExtension.m */,
+				E290EA672A85D9DE000F4B19 /* MJPropertyKey.m */,
+				E290EA682A85D9DE000F4B19 /* MJProperty.h */,
+				E290EA692A85D9DE000F4B19 /* NSObject+MJKeyValue.h */,
+				E290EA6A2A85D9DE000F4B19 /* NSObject+MJCoding.h */,
+				E290EA6B2A85D9DE000F4B19 /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E290EA032A85D95F000F4B19 /* 2023淘宝最新地址选择器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E290EA332A85D960000F4B19 /* Build configuration list for PBXNativeTarget "2023淘宝最新地址选择器" */;
+			buildPhases = (
+				E290EA002A85D95F000F4B19 /* Sources */,
+				E290EA012A85D95F000F4B19 /* Frameworks */,
+				E290EA022A85D95F000F4B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2023淘宝最新地址选择器";
+			productName = "2023淘宝最新地址选择器";
+			productReference = E290EA042A85D95F000F4B19 /* 2023淘宝最新地址选择器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E290EA1E2A85D960000F4B19 /* 2023淘宝最新地址选择器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E290EA362A85D960000F4B19 /* Build configuration list for PBXNativeTarget "2023淘宝最新地址选择器Tests" */;
+			buildPhases = (
+				E290EA1B2A85D960000F4B19 /* Sources */,
+				E290EA1C2A85D960000F4B19 /* Frameworks */,
+				E290EA1D2A85D960000F4B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E290EA212A85D960000F4B19 /* PBXTargetDependency */,
+			);
+			name = "2023淘宝最新地址选择器Tests";
+			productName = "2023淘宝最新地址选择器Tests";
+			productReference = E290EA1F2A85D960000F4B19 /* 2023淘宝最新地址选择器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E290EA282A85D960000F4B19 /* 2023淘宝最新地址选择器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E290EA392A85D960000F4B19 /* Build configuration list for PBXNativeTarget "2023淘宝最新地址选择器UITests" */;
+			buildPhases = (
+				E290EA252A85D960000F4B19 /* Sources */,
+				E290EA262A85D960000F4B19 /* Frameworks */,
+				E290EA272A85D960000F4B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E290EA2B2A85D960000F4B19 /* PBXTargetDependency */,
+			);
+			name = "2023淘宝最新地址选择器UITests";
+			productName = "2023淘宝最新地址选择器UITests";
+			productReference = E290EA292A85D960000F4B19 /* 2023淘宝最新地址选择器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E290E9FC2A85D95F000F4B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E290EA032A85D95F000F4B19 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E290EA1E2A85D960000F4B19 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E290EA032A85D95F000F4B19;
+					};
+					E290EA282A85D960000F4B19 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E290EA032A85D95F000F4B19;
+					};
+				};
+			};
+			buildConfigurationList = E290E9FF2A85D95F000F4B19 /* Build configuration list for PBXProject "2023淘宝最新地址选择器" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E290E9FB2A85D95F000F4B19;
+			productRefGroup = E290EA052A85D95F000F4B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E290EA032A85D95F000F4B19 /* 2023淘宝最新地址选择器 */,
+				E290EA1E2A85D960000F4B19 /* 2023淘宝最新地址选择器Tests */,
+				E290EA282A85D960000F4B19 /* 2023淘宝最新地址选择器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E290EA022A85D95F000F4B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E290EA792A85D9DE000F4B19 /* README.md in Resources */,
+				E290EA522A85D9D8000F4B19 /* mmmAddress.json in Resources */,
+				E290EA172A85D960000F4B19 /* LaunchScreen.storyboard in Resources */,
+				E290EA142A85D960000F4B19 /* Assets.xcassets in Resources */,
+				E290EA122A85D95F000F4B19 /* Main.storyboard in Resources */,
+				E290EA782A85D9DE000F4B19 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E290EA1D2A85D960000F4B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E290EA272A85D960000F4B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E290EA002A85D95F000F4B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E290EA542A85D9D8000F4B19 /* MMAddressDataModel.m in Sources */,
+				E290EA0F2A85D95F000F4B19 /* ViewController.m in Sources */,
+				E290EA6F2A85D9DE000F4B19 /* NSObject+MJKeyValue.m in Sources */,
+				E290EA532A85D9D8000F4B19 /* UIView+MMNormal.m in Sources */,
+				E290EA4E2A85D9D8000F4B19 /* MMChooseAddressCell.m in Sources */,
+				E290EA752A85D9DE000F4B19 /* NSString+MJExtension.m in Sources */,
+				E290EA4F2A85D9D8000F4B19 /* NSString+MMNormal.m in Sources */,
+				E290EA762A85D9DE000F4B19 /* MJPropertyKey.m in Sources */,
+				E290EA092A85D95F000F4B19 /* AppDelegate.m in Sources */,
+				E290EA512A85D9D8000F4B19 /* MMChooseAddressView.m in Sources */,
+				E290EA722A85D9DE000F4B19 /* MJExtensionConst.m in Sources */,
+				E290EA742A85D9DE000F4B19 /* NSObject+MJClass.m in Sources */,
+				E290EA1A2A85D960000F4B19 /* main.m in Sources */,
+				E290EA702A85D9DE000F4B19 /* MJProperty.m in Sources */,
+				E290EA4D2A85D9D8000F4B19 /* UIView+Frame.m in Sources */,
+				E290EA772A85D9DE000F4B19 /* MJFoundation.m in Sources */,
+				E290EA6E2A85D9DE000F4B19 /* MJPropertyType.m in Sources */,
+				E290EA732A85D9DE000F4B19 /* NSObject+MJProperty.m in Sources */,
+				E290EA502A85D9D8000F4B19 /* MMAddressSelectedView.m in Sources */,
+				E290EA0C2A85D95F000F4B19 /* SceneDelegate.m in Sources */,
+				E290EA712A85D9DE000F4B19 /* NSObject+MJCoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E290EA1B2A85D960000F4B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E290EA242A85D960000F4B19 /* _023_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E290EA252A85D960000F4B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E290EA302A85D960000F4B19 /* _023_________UITestsLaunchTests.m in Sources */,
+				E290EA2E2A85D960000F4B19 /* _023_________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E290EA212A85D960000F4B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E290EA032A85D95F000F4B19 /* 2023淘宝最新地址选择器 */;
+			targetProxy = E290EA202A85D960000F4B19 /* PBXContainerItemProxy */;
+		};
+		E290EA2B2A85D960000F4B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E290EA032A85D95F000F4B19 /* 2023淘宝最新地址选择器 */;
+			targetProxy = E290EA2A2A85D960000F4B19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E290EA102A85D95F000F4B19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E290EA112A85D95F000F4B19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E290EA152A85D960000F4B19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E290EA162A85D960000F4B19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E290EA312A85D960000F4B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E290EA322A85D960000F4B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E290EA342A85D960000F4B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTEJF8B296;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "2023淘宝最新地址选择器/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmncc.pis.ylct.-023---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E290EA352A85D960000F4B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTEJF8B296;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "2023淘宝最新地址选择器/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmncc.pis.ylct.-023---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E290EA372A85D960000F4B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTEJF8B296;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmncc.pis.ylct.-023---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2023淘宝最新地址选择器.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2023淘宝最新地址选择器";
+			};
+			name = Debug;
+		};
+		E290EA382A85D960000F4B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTEJF8B296;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmncc.pis.ylct.-023---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2023淘宝最新地址选择器.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2023淘宝最新地址选择器";
+			};
+			name = Release;
+		};
+		E290EA3A2A85D960000F4B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTEJF8B296;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmncc.pis.ylct.-023---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2023淘宝最新地址选择器";
+			};
+			name = Debug;
+		};
+		E290EA3B2A85D960000F4B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTEJF8B296;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmncc.pis.ylct.-023---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2023淘宝最新地址选择器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E290E9FF2A85D95F000F4B19 /* Build configuration list for PBXProject "2023淘宝最新地址选择器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E290EA312A85D960000F4B19 /* Debug */,
+				E290EA322A85D960000F4B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E290EA332A85D960000F4B19 /* Build configuration list for PBXNativeTarget "2023淘宝最新地址选择器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E290EA342A85D960000F4B19 /* Debug */,
+				E290EA352A85D960000F4B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E290EA362A85D960000F4B19 /* Build configuration list for PBXNativeTarget "2023淘宝最新地址选择器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E290EA372A85D960000F4B19 /* Debug */,
+				E290EA382A85D960000F4B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E290EA392A85D960000F4B19 /* Build configuration list for PBXNativeTarget "2023淘宝最新地址选择器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E290EA3A2A85D960000F4B19 /* Debug */,
+				E290EA3B2A85D960000F4B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E290E9FC2A85D95F000F4B19 /* Project object */;
+}
