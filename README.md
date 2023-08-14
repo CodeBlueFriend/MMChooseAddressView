@@ -38,3 +38,8 @@ MMAddressSelectedViewDelegate
 -(void)setCodesString:(NSString *)codes;
 
 ```
+
+
+* 演示
+
+   <img src="演示.gif" alt="GIF Image" style="width: 272px;">
